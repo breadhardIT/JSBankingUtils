@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pain.008.001.02">
+  <CstmrDrctDbtInitn>
+    <GrpHdr>
+      <MsgId>PRE2021031512024100000202103ASSFED</MsgId>
+      <CreDtTm>2021-03-15T11:03:02Z</CreDtTm>
+      <NbOfTxs>2</NbOfTxs>
+      <CtrlSum>50.00</CtrlSum>
+      <InitgPty>
+        <Nm>Llaguts de Calafell Rem</Nm>
+        <Id>
+          <OrgId>
+            <Othr>
+              <Id>ES03000G43825017</Id>
+              <SchmeNm>
+                <Prtry>SEPA</Prtry>
+              </SchmeNm>
+            </Othr>
+          </OrgId>
+        </Id>
+      </InitgPty>
+    </GrpHdr>
+    <PmtInf>
+      <PmtInfId>G43825017 2021-04-05 OOFF 1</PmtInfId>
+      <PmtMtd>DD</PmtMtd>
+      <NbOfTxs>2</NbOfTxs>
+      <CtrlSum>50.00</CtrlSum>
+      <PmtTpInf>
+        <SvcLvl>
+          <Cd>SEPA</Cd>
+        </SvcLvl>
+        <LclInstrm>
+          <Cd>CORE</Cd>
+        </LclInstrm>
+        <SeqTp>OOFF</SeqTp>
+      </PmtTpInf>
+      <ReqdColltnDt>2021-04-05</ReqdColltnDt>
+      <Cdtr>
+        <Nm>Associacio Esportiva Llaguts de Calafell</Nm>
+        <PstlAdr>
+          <Ctry>ES</Ctry>
+          <AdrLine>Carrer Barcelona 26</AdrLine>
+          <AdrLine>43820 CALAFELL</AdrLine>
+        </PstlAdr>
+      </Cdtr>
+      <CdtrAcct>
+        <Id>
+          <IBAN>ES5221000095410200893753</IBAN>
+        </Id>
+      </CdtrAcct>
+      <CdtrAgt>
+        <FinInstnId>
+          <BIC>CAIXESBB</BIC>
+        </FinInstnId>
+      </CdtrAgt>
+      <ChrgBr>SLEV</ChrgBr>
+      <CdtrSchmeId>
+        <Id>
+          <PrvtId>
+            <Othr>
+              <Id>ES03000G43825017</Id>
+              <SchmeNm>
+                <Prtry>SEPA</Prtry>
+              </SchmeNm>
+            </Othr>
+          </PrvtId>
+        </Id>
+      </CdtrSchmeId>
+      <DrctDbtTxInf>
+        <PmtId>
+          <EndToEndId>MIR35112840M01</EndToEndId>
+        </PmtId>
+        <InstdAmt Ccy="EUR">25.00</InstdAmt>
+        <DrctDbtTx>
+          <MndtRltdInf>
+            <MndtId>MIR35112840M</MndtId>
+            <DtOfSgntr>2021-03-15</DtOfSgntr>
+          </MndtRltdInf>
+        </DrctDbtTx>
+        <DbtrAgt>
+          <FinInstnId/>
+        </DbtrAgt>
+        <Dbtr>
+          <Nm>MIREIA CADENET ARTALEJO</Nm>
+          <PstlAdr>
+            <Ctry>ES</Ctry>
+            <AdrLine>C/ROQUES 3</AdrLine>
+            <AdrLine>43880 SANT VICENC CALDERS</AdrLine>
+          </PstlAdr>
+        </Dbtr>
+        <DbtrAcct>
+          <Id>
+            <IBAN>ES4521000155950101458189</IBAN>
+          </Id>
+        </DbtrAcct>
+      </DrctDbtTxInf>
+    </PmtInf>
+  </CstmrDrctDbtInitn>
+</Document>

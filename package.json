@@ -1,0 +1,14 @@
+{
+  "name": "JSBankingUtils",
+  "version": "1.0.0",
+  "description": "Utilidades Financieras para Entidades sin Animo de Lucro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Javier Ramos Panduro (Breadhard IT)",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "latest"
+  }
+}
